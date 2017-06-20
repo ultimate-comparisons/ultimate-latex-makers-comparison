@@ -1,63 +1,9 @@
-# Ultimate Comparison BASE
+# Ultimate Tex Makers Comparison
 
-[![Build Status](https://travis-ci.org/ultimate-comparisons/ultimate-comparison-BASE.svg?branch=master)](https://travis-ci.org/ultimate-comparisons/ultimate-comparison-BASE)
+[![Build 
+Status](https://travis-ci.org/ultimate-comparisons/ultimate-deployment-tool-comparison.svg?branch=master)](https://travis-ci.org/ultimate-comparisons/ultimate-deployment-tool-comparison)
 
-This is an ultimate comparison framework written in [Angular](https://angular.io/).
-
-## Create your own ultimate comparison 
-1. Create a new repository on GitHub. In the following called "ultimate-THING-comparison" and located at https://github.com/example.com/ultimate-THING-comparison, replace `THING` by your comparison (e.g., `web-framework`).
-2. Create local repository (in a git bash, Windows shell does not work)
-
-        mkdir ultimate-THING-comparison
-        cd ultimate-THING-comparison
-        git init
-        git fetch --depth=1 -n https://github.com/ultimate-comparisons/ultimate-comparison-BASE.git
-        git reset --hard $(git commit-tree FETCH_HEAD^{tree} -m "initial commit")
-
-3. Create push to your GitHub repository
-        
-        git remote add origin git@github.com:example.com/ultimate-THING-comparison.git
-        git push -u origin master
-        
-### Setup comparison
-1. The file `comparison-configuration/comparison.json` defines the main properties of the comparison and the details dialog.
-  
-  ![comparison.json](https://cdn.rawgit.com/ultimate-comparisons/ultimate-comparison-BASE/master/media/comparison.svg)
-  
-  In the details dialog the values of the keys `header-label`, `body`, and `body-attachment-tags` matches level 2 headers in the comparison-elements files. The type of the `body-attachment-tags` must be labels and `body` will be parsed as markdown formated text. 
-2. The file `comparison-configuration/table.json` defines the table columns. 
-  - `tag:` References a level 2 header of the comparison elements (`Performance`, `Description`, `License`, `Showcase`) or the level 1 header and its content (`tag`, `url`, `descr`).
-  - `display:` Allows the user to hide a colum by default. It is possible to dynamically hide or display column by clicking on the configuration button and toggle the columns on/off.
-  - `name:` Allows the user to change the display name (default display name is defined by `tag`).
-  - `type:` Style of the content. 
-  - `type.tag:` Either a label, a text, or a url. 
-  - `type.class:` Set a label class (e. g. `label label-info`). Will be ignored if value class is set.
-  - `type.values:`
-  ```json
-  {
-    "name": "slow",
-    "description": "Overall performance above 200ms",
-    "class": "label-danger",
-    "color": "red"
-  }
-  ```
-  - The label with the value "slow" has the tooltip "overall performance above 200ms", and will be red ("label-danger")
-  - You can choose between red and class, classes are the preferred way. If both are missing, an automatic color is assigned.
-
-  ![table.json](https://cdn.rawgit.com/ultimate-comparisons/ultimate-comparison-BASE/master/media/table.svg) 
-3. The file `comparison-configuration/criteria.json` defines filter criterias for the table data.
-  - `tag:` References a level 2 header of the comparison elements (`Performance`, `Description`, `License`, `Showcase`)
-  - `name:` Display name (replaces `tag`).
-  - `placeholder:` Placeholder for the select box.
-  - `values:` Filter values.
-  - `and_search:` Defines if all filter value must match or at least one.
-  
-  ![criteria.json](https://cdn.rawgit.com/ultimate-comparisons/ultimate-comparison-BASE/master/media/criteria.svg)       
-        
-
-### Define comparison elements
-For each thing, create a markdown file in `comparison-elements`.
-You can base it on `template.md`.
+This is an ultimate comparison of tex makers.
 
 ## Test it
 1. Install [node.js](https://nodejs.org/en/)
@@ -75,21 +21,89 @@ You can base it on `template.md`.
 
 6. `npm install`
 7. `npm start` (starts the web page)
-8. [Setup automatic deployment of `www` directory using Travis CI](doc/Travis_Build_Deploy.md)
+8. [Setup automatic deployment of `www` directory using Travis CI](https://github.com/ultimate-comparisons/ultimate-comparison-BASE/wiki/Build-and-deploy-project-with-Travis-CI)
 
-## Update your comparison
 
-See [docs/Update_YOUR_Comparison.md](doc/Update_YOUR_Comparison.md)
+## Ultimate-tex-makers-Comparison Element Specification
+The code below shows a sample element.
+
+    # AutoLaTeX - http://www.arakhne.org/autolatex/
+    AutoLaTeX is a tool for managing small to large sized LaTeX documents. The user can easily perform all required steps to do such tasks as: preview the document, or produce a PDF 
+    file.
+
+    ## Implementation
+    - Perl
+    - Python
+
+    ## Date
+    - 2014
+
+    ## Supported Tools
+    - latex
+    - pdflatex
+    - xelatex
+    - lualatex
+    - bibtex
+    - biber
+    - makeindex
+    - makeglossaries
+    - dvips
+
+    ## Detect Changes for TeX
+    - all
+
+    ## Detect Changes for BibTeX
+    - all
+
+    ## Detect Changes for Images
+    - all
+
+    ## Automatic File Convertions to PS/PDF/PNG
+    - asta
+    - dia
+    - dot
+    - fig
+    - ggb
+    - gxl
+    - odg
+    - plot
+    - svg
+    - vsd
+    - xmi
+
+    ## Automatic File Convertions to TeX
+    - c/c++
+    - java
+    - matlab
+    - ml
+    - perl
+    - python
+    - ruby
+    - sql
+    - Beamer
+
+    ## Automatic File Convertions to PSTeX/PdfTeX
+    - fig
+    - plot
+    - dia
+    - svg
+    - Beamer
+
+    ## Export to Elsevier
+    - Yes
+
+    ## Editor Plugins
+    - Gedit3
+    - Gtk3
+    - Sublime Text 3
+    - Gedit2
+    - Sublime Text 2
+    - Gtk2
+
 
 ## License
 
-The code is licensed under [MIT], the content (located at `comparison-elements`) under [CC0-1.0].
-
-  [CC0-1.0]: https://creativecommons.org/publicdomain/zero/1.0/
-
-<hr />
-
-See [README-THING.template](https://github.com/ultimate-comparisons/ultimate-comparison-BASE/blob/master/README-THING.template.md) for a README skeletton for your ultimate-THING-comparison.
+The code is licensed under [MIT], the content (located at `comparison-elements`) under [CC-BY-SA-4.0].
 
   [MIT]: https://opensource.org/licenses/MIT
   [CC-BY-SA-4.0]: http://creativecommons.org/licenses/by-sa/4.0/
