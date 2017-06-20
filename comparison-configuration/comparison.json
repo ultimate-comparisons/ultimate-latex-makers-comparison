@@ -1,18 +1,25 @@
 {
   "title": "Ultimate-Comparison",
-  "subtitle": "Ultimate comparison framework",
+  "subtitle": "Ultimate tex maker comparison framework",
   "selecttitle": "Criteria",
-  "tabletitle": "Comparison of DOM manipulation libraries",
+  "tabletitle": "Comparison of tex makers",
   "details": {
-    "header-label": "Performance",
+    "header-label": "",
     "body-main-title": "Description",
-    "body": "Description",
+    "body": "Comparison of different tex makers, based on <http://www.arakhne.org/autolatex/>.",
     "body-attachment-tags": [
-      "Performance",
-      "License",
-      "Showcase 2.0",
-      "Uncolored"
+      "Implementation",
+      "Date",
+      "Supported Tools",
+      "Detect Changes for TeX",
+      "Detect Changes for BibTeX",
+      "Detect Changes for Images",
+      "Automatic File Convertions to PS/PDF/PNG",
+      "Automatic File Convertions to TeX",
+      "Automatic File Convertions to PSTeX/PdfTeX",
+      "Export to Elsevier",
+      "Editor Plugins"
     ]
   },
-  "repository": "https://github.com/ultimate-comparisons/ultimate-comparison-BASE.git"
+  "repository": "https://github.com/ultimate-comparisons/ultimate-tex-maker-comparison.git"
 }

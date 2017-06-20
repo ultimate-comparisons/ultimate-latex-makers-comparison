@@ -1,142 +1,438 @@
 [
-  {
-    "name": "Name",
-    "tag": "tag",
-    "urlTag": "url",
-    "style": "width: 5%",
-    "display": true,
-    "type": {
-      "tag": "url"
+    {
+        "name": "Name",
+        "tag": "tag",
+        "urlTag": "url",
+        "style": "width: 5%",
+        "display": true,
+        "type": {
+            "tag": "url"
+        },
+        "valign": "top"
     },
-    "valign": "top"
-  },
-  {
-    "name": "",
-    "tag": "Rating",
-    "display": true,
-    "type": {
-      "tag": "rating"
-    }
-  },
-  {
-    "name": "Short Description",
-    "tag": "descr",
-    "style": "width: 25%",
-    "display": true,
-    "type": {
-      "tag": "text"
-    }
-  },
-  {
-    "name": "Performance",
-    "tag": "Performance",
-    "style": "width: 5%",
-    "display": true,
-    "type": {
-      "tag": "label",
-      "values": [
-        {
-          "name": "slow",
-          "description": "Overall performance above 200ms.",
-          "class": "label-danger"
-        },
-        {
-          "name": "fast",
-          "description": "Overall performance below 200ms.",
-          "class": "label-success"
+    {
+        "name": "Short Description",
+        "tag": "descr",
+        "style": "width: 25%",
+        "display": true,
+        "type": {
+            "tag": "text"
         }
-      ]
-    }
-  },
-  {
-    "name": "License",
-    "tag": "License",
-    "display": false,
-    "type": {
-      "tag": "label",
-      "class": "label label-info",
-      "values": [
-        {
-          "name": "MIT",
-          "description": "<http://choosealicense.com/licenses/mit/>"
-        },
-        {
-          "name": "Apache 2.0",
-          "description": "http://choosealicense.com/licenses/apache-2.0/"
-        },
-        {
-          "name": "MPL 2.0",
-          "description": "http://choosealicense.com/licenses/mpl-2.0/"
+    },
+    {
+        "name": "Implementation",
+        "tag": "Implementation",
+        "style": "width: 5%",
+        "display": false,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Sh",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "Perl",
+                    "color": "#11EAD3"
+                },
+                {
+                    "name": "Python",
+                    "color": "#4F11EA"
+                },
+                {
+                    "name": "Makefile",
+                    "color": "#EA6311"
+                },
+                {
+                    "name": "csh",
+                    "color": "#C6EA11"
+                },
+                {
+                    "name": "Ruby",
+                    "color": "#113FEA"
+                },
+                {
+                    "name": "Bash",
+                    "color": "#77EA11"
+                },
+                {
+                    "name": "C",
+                    "color": "#9811EA"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "name": "Showcase",
-    "tag": "Showcase 2.0",
-    "style": "width: 5%",
-    "display": true,
-    "type": {
-      "tag": "label",
-      "values": [
-        {
-          "name": "red 1",
-          "description": "Show case for red label 1",
-          "class": "label-danger"
-        },
-        {
-          "name": "red 2",
-          "description": "Show case for red label 2",
-          "class": "label-danger"
-        },
-        {
-          "name": "green",
-          "description": "Show case for green label",
-          "class": "label-success"
-        },
-        {
-          "name": "yellow",
-          "description": "Show case for yellow label",
-          "class": "label-warning"
-        },
-        {
-          "name": "dark blue",
-          "description": "Show case for dark blue label",
-          "class": "label-primary"
-        },
-        {
-          "name": "grey",
-          "description": "Show case for grey label",
-          "class": "label-default"
-        },
-        {
-          "name": "light blue",
-          "description": "",
-          "class": "label-info"
+    },
+    {
+        "name": "Date",
+        "tag": "Date",
+        "display": false,
+        "type": {
+            "tag": "label",
+            "class": "label label-info",
+            "values": [
+                {
+                    "name": "2014",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "1993",
+                    "color": "#11EAD3"
+                },
+                {
+                    "name": "2003",
+                    "color": "#4F11EA"
+                },
+                {
+                    "name": "2012",
+                    "color": "#EA6311"
+                },
+                {
+                    "name": "1997",
+                    "color": "#C6EA11"
+                },
+                {
+                    "name": "2003",
+                    "color": "#113FEA"
+                },
+                {
+                    "name": "2010",
+                    "color": "#77EA11"
+                },
+                {
+                    "name": "2001",
+                    "color": "#9811EA"
+                },
+                {
+                    "name": "2013",
+                    "color": "#2BEA11"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "name": "Uncolored",
-    "tag": "Uncolored",
-    "display": true,
-    "type": {
-      "tag": "label",
-      "values": [
-        {
-          "name": "color 1",
-          "description": "Color 1"
-        },
-        {
-          "name": "color 2",
-          "description": "Color 2"
-        },
-        {
-          "name": "color 3",
-          "description": "Color 3"
+    },
+    {
+        "name": "Supported Tools",
+        "tag": "Supported Tools",
+        "style": "width: 5%",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "latex",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "pdflatex",
+                    "color": "#11EAD3"
+                },
+                {
+                    "name": "xelatex",
+                    "color": "#4F11EA"
+                },
+                {
+                    "name": "lualatex",
+                    "color": "#EA6311"
+                },
+                {
+                    "name": "bibtex",
+                    "color": "#C6EA11"
+                },
+                {
+                    "name": "biber",
+                    "color": "#113FEA"
+                },
+                {
+                    "name": "makeindex",
+                    "color": "#77EA11"
+                },
+                {
+                    "name": "makeglossaries",
+                    "color": "#9811EA"
+                },
+                {
+                    "name": "dvips",
+                    "color": "#2BEA11"
+                },
+                {
+                    "name": "ps2pdf",
+                    "color": "#EA9E11"
+                },
+                {
+                    "name": "dvipdf",
+                    "color": "#11BCEA"
+                },
+                {
+                    "name": "dvi",
+                    "color": "#11EA7A"
+                },
+                {
+                    "name": "texi2dvi",
+                    "color": "#1E11EA"
+                },
+                {
+                    "name": "etex",
+                    "color": "#EAD311"
+                },
+                {
+                    "name": "aleph",
+                    "color": "#8411EA"
+                },
+                {
+                    "name": "omega",
+                    "color": "#BC11EA"
+                },
+                {
+                    "name": "vtex",
+                    "color": "#1187EA"
+                }
+            ]
         }
-      ]
+    },
+    {
+        "name": "Detect Changes for TeX",
+        "tag": "Detect Changes for TeX",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "all",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "latex",
+                    "color": "#11EAD3"
+                },
+                {
+                    "name": "bibtex",
+                    "color": "#4F11EA"
+                },
+                {
+                    "name": "makeindex",
+                    "color": "#EA6311"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Detect Changes for BibTeX",
+        "tag": "Detect Changes for BibTeX",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "all",
+                    "color": "#EA3711"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Detect Changes for Images",
+        "tag": "Detect Changes for Images",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "all",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "maybe",
+                    "color": "#11EAD3"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Automatic File Convertions to PS/PDF/PNG",
+        "tag": "Automatic File Convertions to PS/PDF/PNG",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "asta",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "dia",
+                    "color": "#11EAD3"
+                },
+                {
+                    "name": "dot",
+                    "color": "#4F11EA"
+                },
+                {
+                    "name": "fig",
+                    "color": "#EA6311"
+                },
+                {
+                    "name": "ggb",
+                    "color": "#C6EA11"
+                },
+                {
+                    "name": "gxl",
+                    "color": "#113FEA"
+                },
+                {
+                    "name": "odg",
+                    "color": "#77EA11"
+                },
+                {
+                    "name": "plot",
+                    "color": "#9811EA"
+                },
+                {
+                    "name": "svg",
+                    "color": "#2BEA11"
+                },
+                {
+                    "name": "vsd",
+                    "color": "#EA9E11"
+                },
+                {
+                    "name": "xmi",
+                    "color": "#11BCEA"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Automatic File Convertions to TeX",
+        "tag": "Automatic File Convertions to TeX",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "all",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "c/c++",
+                    "color": "#11EAD3"
+                },
+                {
+                    "name": "java",
+                    "color": "#4F11EA"
+                },
+                {
+                    "name": "matlab",
+                    "color": "#EA6311"
+                },
+                {
+                    "name": "ml",
+                    "color": "#C6EA11"
+                },
+                {
+                    "name": "perl",
+                    "color": "#113FEA"
+                },
+                {
+                    "name": "python",
+                    "color": "#77EA11"
+                },
+                {
+                    "name": "ruby",
+                    "color": "#9811EA"
+                },
+                {
+                    "name": "sql",
+                    "color": "#2BEA11"
+                },
+                {
+                    "name": "Beamer",
+                    "color": "#EA9E11"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Automatic File Convertions to PSTeX/PdfTeX",
+        "tag": "Automatic File Convertions to PSTeX/PdfTeX",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "fig",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "plot",
+                    "color": "#11EAD3"
+                },
+                {
+                    "name": "dia",
+                    "color": "#4F11EA"
+                },
+                {
+                    "name": "svg",
+                    "color": "#EA6311"
+                },
+                {
+                    "name": "Beamer",
+                    "color": "#C6EA11"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Export to Elsevier",
+        "tag": "Export to Elsevier",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "class": "label-success"
+                },
+                {
+                    "name": "No",
+                    "class": "label-danger"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Editor Plugins",
+        "tag": "Editor Plugins",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Gedit3",
+                    "color": "#EA3711"
+                },
+                {
+                    "name": "Gtk3",
+                    "color": "#11EAD3"
+                },
+                {
+                    "name": "Sublime Text 3",
+                    "color": "#4F11EA"
+                },
+                {
+                    "name": "Gedit2",
+                    "description": "deprecated",
+                    "color": "#EA6311"
+                },
+                {
+                    "name": "Gtk2",
+                    "description": "deprecated",
+                    "color": "#C6EA11"
+                },
+                {
+                    "name": "Sublime Text 2",
+                    "description": "deprecated",
+                    "color": "#113FEA"
+                }
+            ]
+        }
     }
-  }
 ]
