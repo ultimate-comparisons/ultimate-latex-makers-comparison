@@ -1,0 +1,2213 @@
+[
+  {
+    "tag": "AutoLaTeX - http://www.arakhne.org/autolatex/",
+    "descr": "AutoLaTeX is a tool for managing small to large sized LaTeX documents. The user can easily perform all required steps to do such tasks as: preview the document, or produce a PDF file.",
+    "Implementation": {
+      "plain": "- Perl\n- Python\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Python",
+              "plain": "Python\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2014\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2014",
+              "plain": "2014\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- pdflatex\n- xelatex\n- lualatex\n- bibtex\n- biber\n- makeindex\n- makeglossaries\n- dvips\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "xelatex",
+              "plain": "xelatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "lualatex",
+              "plain": "lualatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "biber",
+              "plain": "biber\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeglossaries",
+              "plain": "makeglossaries\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "- asta\n- dia\n- dot\n- fig\n- ggb\n- gxl\n- odg\n- plot\n- svg\n- vsd\n- xmi\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "asta",
+              "plain": "asta\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dia",
+              "plain": "dia\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dot",
+              "plain": "dot\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "fig",
+              "plain": "fig\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ggb",
+              "plain": "ggb\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "gxl",
+              "plain": "gxl\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "odg",
+              "plain": "odg\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "plot",
+              "plain": "plot\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "svg",
+              "plain": "svg\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "vsd",
+              "plain": "vsd\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "xmi",
+              "plain": "xmi\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "- c/c++\n- java\n- matlab\n- ml\n- perl\n- python\n- ruby\n- sql\n- Beamer\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "c/c++",
+              "plain": "c/c++\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "java",
+              "plain": "java\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "matlab",
+              "plain": "matlab\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ml",
+              "plain": "ml\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "perl",
+              "plain": "perl\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "python",
+              "plain": "python\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ruby",
+              "plain": "ruby\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "sql",
+              "plain": "sql\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Beamer",
+              "plain": "Beamer\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "- fig\n- plot\n- dia\n- svg\n- Beamer\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "fig",
+              "plain": "fig\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "plot",
+              "plain": "plot\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dia",
+              "plain": "dia\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "svg",
+              "plain": "svg\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Beamer",
+              "plain": "Beamer\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- Yes\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Yes",
+              "plain": "Yes\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "- Gedit3\n- Gtk3\n- Sublime Text 3\n- Gedit2\n- Sublime Text 2\n- Gtk2\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Gedit3",
+              "plain": "Gedit3\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Gtk3",
+              "plain": "Gtk3\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Sublime Text 3",
+              "plain": "Sublime Text 3\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Gedit2",
+              "plain": "Gedit2\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Sublime Text 2",
+              "plain": "Sublime Text 2\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Gtk2",
+              "plain": "Gtk2\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "tag": "ShLaTeX - https://www.ctan.org/pkg/shlatex",
+    "descr": "This script permits centralization of the many program calls necessary to completely compile a LaTeX document.",
+    "Implementation Language": {
+      "plain": "- Bash\n- C\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Bash",
+              "plain": "Bash\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "C",
+              "plain": "C\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2003\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2003",
+              "plain": "2003\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- pdflatex\n- dvips\n- ps2pdf\n- bibtex\n- makeindex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ps2pdf",
+              "plain": "ps2pdf\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "go-make - https://www.ctan.org/pkg/go-make",
+    "descr": "Go automates the processing of a LaTeX document, according to a file .gorc in the same directory as the document.",
+    "Implementation": {
+      "plain": "- Perl\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 1993\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "1993",
+              "plain": "1993\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- dvips\n- bibtex\n- makeindex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "latex-make - https://www.ctan.org/pkg/latex-make",
+    "descr": "This package provides several tools that aim to simplify the compilation of LaTeX documents.",
+    "Implementation": {
+      "plain": "- Makefile\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Makefile",
+              "plain": "Makefile\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2003\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2003",
+              "plain": "2003\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- pdflatex\n- dvips\n- ps2pdf\n- bibtex\n- makeindex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ps2pdf",
+              "plain": "ps2pdf\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "- fig\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "fig",
+              "plain": "fig\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- no\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "no",
+              "plain": "no\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "latexmk - https://www.ctan.org/pkg/latexmk/",
+    "descr": "Latexmk completely automates the process of generating a LaTeX document.",
+    "Implementation": {
+      "plain": "- Perl\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2012\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2012",
+              "plain": "2012\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- dvips\n- dvipdf\n- xelatex\n- pdflatex\n- bibtex\n- makeindex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvipdf",
+              "plain": "dvipdf\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "xelatex",
+              "plain": "xelatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "latexn - https://www.ctan.org/pkg/latexn",
+    "descr": "A csh script to run LaTeX as many times as needed (and hopefully no more) on a given file to resolve cross references and to ensure that the table of contents and index (if any) are up-to-date.",
+    "Implementation": {
+      "plain": "- csh\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "csh",
+              "plain": "csh\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 1997\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "1997",
+              "plain": "1997\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- dvi\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "dvi",
+              "plain": "dvi\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- latex\n- bibtex\n- makeindex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "make-latex - https://www.ctan.org/pkg/make-latex",
+    "descr": "Make_latex is a library of make(1) rules for producing LaTeX documents: it has rules for running LaTeX 'enough' times, for running BibTeX for various format conversions and for printing final results.",
+    "Implementation": {
+      "plain": "- Makefile\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Makefile",
+              "plain": "Makefile\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 1993\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "1993",
+              "plain": "1993\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- dvips\n- bibtex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "- fig\n- plot\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "fig",
+              "plain": "fig\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "plot",
+              "plain": "plot\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "- fig\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "fig",
+              "plain": "fig\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "mk - https://www.ctan.org/pkg/mk",
+    "descr": "mk is a Bash script that, in close collaboration with vpp (short for View and Print PDF/PostScrit), is helpful in the cyclic process of editing, compiling, viewing, and printing of a LaTeX document.",
+    "Implementation Language": {
+      "plain": "- Ruby\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Ruby",
+              "plain": "Ruby\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2012\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2012",
+              "plain": "2012\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- xelatex\n- pdflatex\n- texi2dvi\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "xelatex",
+              "plain": "xelatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "texi2dvi",
+              "plain": "texi2dvi\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "rake4latex - https://www.ctan.org/pkg/rake4latex",
+    "descr": "The package provides a tool that compiles LaTeX-documents as often as needed, including makeindex and BibTeX calls.",
+    "Implementation Language": {
+      "plain": "- Ruby\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Ruby",
+              "plain": "Ruby\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2001\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2001",
+              "plain": "2001\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- pdflatex\n- xelatex\n- lualatex\n- bibtex\n- makeindex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "xelatex",
+              "plain": "xelatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "lualatex",
+              "plain": "lualatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "rubber - https://launchpad.net/rubber/",
+    "descr": "Rubber is a program whose purpose is to handle all tasks related to the compilation of LaTeX documents.",
+    "Implementation Language": {
+      "plain": "- Python\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Python",
+              "plain": "Python\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2010\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2010",
+              "plain": "2010\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- pdflatex\n- etex\n- aleph\n- omega\n- vtex\n- bibtex\n- makeindex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "etex",
+              "plain": "etex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "aleph",
+              "plain": "aleph\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "omega",
+              "plain": "omega\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "vtex",
+              "plain": "vtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "- maybe\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "maybe",
+              "plain": "maybe\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "Template - http://www.example.com",
+    "descr": "Default short description (with bibkey: [@esper-reference])",
+    "Performance": {
+      "plain": "- slow\n- fast\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "slow",
+              "plain": "slow\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "fast",
+              "plain": "fast\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "License": {
+      "plain": "- MIT\n- Apache 2.0\n- MPL 2.0\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "MIT",
+              "plain": "MIT\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Apache 2.0",
+              "plain": "Apache 2.0\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "MPL 2.0",
+              "plain": "MPL 2.0\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Showcase 2.0": {
+      "plain": "- red 1\n- red 2\n- green\n    - [@eckertThesisCEP]\n- yellow\n    - yellow property\n- dark blue\n    - [@eckertThesisCEP]\n    - more properties\n- grey\n- light blue\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "red 1",
+              "plain": "red 1\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "red 2",
+              "plain": "red 2\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "green",
+              "plain": "green\n",
+              "plainChilds": "    - [@eckertThesisCEP]\n",
+              "childs": [
+                {
+                  "content": ",[@eckertThesisCEP]",
+                  "plain": "[@eckertThesisCEP]\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "yellow",
+              "plain": "yellow\n",
+              "plainChilds": "    - yellow property\n",
+              "childs": [
+                {
+                  "content": "yellow property",
+                  "plain": "yellow property\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "dark blue",
+              "plain": "dark blue\n",
+              "plainChilds": "    - [@eckertThesisCEP]\n    - more properties\n",
+              "childs": [
+                {
+                  "content": ",[@eckertThesisCEP]",
+                  "plain": "[@eckertThesisCEP]\n    ",
+                  "plainChilds": "",
+                  "childs": []
+                },
+                {
+                  "content": "more properties",
+                  "plain": "more properties\n",
+                  "plainChilds": "",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "content": "grey",
+              "plain": "grey\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "light blue",
+              "plain": "light blue\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Description": {
+      "plain": "Default long description in __markdown__.\n- Bibkey example [@Adi:2004:ASM:988145.988150]\n- [Link example](http://example.com).",
+      "childs": {
+        "0": [
+          "Default long description in __markdown__. - Bibkey example [@Adi:2004:ASM:988145.988150] - [Link example]."
+        ]
+      }
+    },
+    "Rating": {
+      "plain": "- [5] Template is perfect\n- [1] I don't understand nothing\n- [3] It works\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": ",[5] Template is perfect",
+              "plain": "[5] Template is perfect\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": ",[1] I don't understand nothing",
+              "plain": "[1] I don't understand nothing\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": ",[3] It works",
+              "plain": "[3] It works\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "tag": "texi2dvi - https://www.ctan.org/pkg/texi2dvi-latest?lang=en",
+    "descr": "A shell script that runs each Tex­info or (La)TeX file in through TeX in turn, un­til all cross-ref­er­ences are re­solved, build­ing all in­dexes.",
+    "Implementation": {
+      "plain": "- Sh\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Sh",
+              "plain": "Sh\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2013\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2013",
+              "plain": "2013\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- dvips\n- dvipdf\n- pdflatex\n- bibtex\n- makeindex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvipdf",
+              "plain": "dvipdf\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect Changes for Images": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PS/PDF/PNG": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to TeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Automatic File Convertions to PSTeX/PdfTeX": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "",
+      "childs": {
+        "0": [
+          ""
+        ]
+      }
+    }
+  }
+]

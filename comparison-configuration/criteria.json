@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Implementation",
+    "tag": "Implementation",
+    "placeholder": "Select implementation ...",
+    "and_search": false,
+    "values": [
+      {
+        "name": "Sh"
+      },
+      {
+        "name": "Perl"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Makefile"
+      },
+      {
+        "name": "csh"
+      },
+      {
+        "name": "Ruby"
+      },
+      {
+        "name": "Bash"
+      },
+      {
+        "name": "C"
+      }
+    ]
+  },
+  {
+    "name": "Date",
+    "tag": "Date",
+    "placeholder": "Select date ...",
+    "and_search": false,
+    "values": [
+      {
+        "name": "2014"
+      },
+      {
+        "name": "1993"
+      },
+      {
+        "name": "2003"
+      },
+      {
+        "name": "2012"
+      },
+      {
+        "name": "1997"
+      },
+      {
+        "name": "2003"
+      },
+      {
+        "name": "2010"
+      },
+      {
+        "name": "2001"
+      },
+      {
+        "name": "2013"
+      }
+    ]
+  },
+  {
+    "name": "Supported Tools",
+    "tag": "Supported Tools",
+    "placeholder": "Select supported tools ...",
+    "and_search": true,
+    "values": [
+      {
+        "name": "latex"
+      },
+      {
+        "name": "pdflatex"
+      },
+      {
+        "name": "xelatex"
+      },
+      {
+        "name": "lualatex"
+      },
+      {
+        "name": "bibtex"
+      },
+      {
+        "name": "biber"
+      },
+      {
+        "name": "makeindex"
+      },
+      {
+        "name": "makeglossaries"
+      },
+      {
+        "name": "dvips"
+      },
+      {
+        "name": "ps2pdf"
+      },
+      {
+        "name": "dvipdf"
+      },
+      {
+        "name": "dvi"
+      },
+      {
+        "name": "texi2dvi"
+      },
+      {
+        "name": "etex"
+      },
+      {
+        "name": "aleph"
+      },
+      {
+        "name": "omega"
+      },
+      {
+        "name": "vtex"
+      }
+    ]
+  },
+  {
+    "name": "Detect Changes for TeX",
+    "tag": "Detect Changes for TeX",
+    "placeholder": "Select detected changes for tex ...",
+    "and_search": false,
+    "values": [
+      {
+        "name": "all"
+      },
+      {
+        "name": "latex"
+      },
+      {
+        "name": "bibtex"
+      },
+      {
+        "name": "makeindex"
+      }
+    ]
+  },
+  {
+    "name": "Detect Changes for BibTeX",
+    "tag": "Detect Changes for BibTeX",
+    "placeholder": "Select detected changes for bibtex ...",
+    "and_search": false,
+    "values": [
+      {
+        "name": "all"
+      }
+    ]
+  },
+  {
+    "name": "Detect Changes for Images",
+    "tag": "Detect Changes for Images",
+    "placeholder": "Select detected changes for images ...",
+    "and_search": false,
+    "values": [
+      {
+        "name": "all"
+      },
+      {
+        "name": "maybe"
+      }
+    ]
+  },
+  {
+    "name": "Automatic File Convertions to PS/PDF/PNG",
+    "tag": "Automatic File Convertions to PS/PDF/PNG",
+    "placeholder": "Select automatic convertions to ps/pdf/png ...",
+    "and_search": true,
+    "values": [
+      {
+        "name": "asta"
+      },
+      {
+        "name": "dia"
+      },
+      {
+        "name": "dot"
+      },
+      {
+        "name": "fig"
+      },
+      {
+        "name": "ggb"
+      },
+      {
+        "name": "gxl"
+      },
+      {
+        "name": "odg"
+      },
+      {
+        "name": "plot"
+      },
+      {
+        "name": "svg"
+      },
+      {
+        "name": "vsd"
+      },
+      {
+        "name": "xmi"
+      }
+    ]
+  },
+  {
+    "name": "Automatic File Convertions to TeX",
+    "tag": "Automatic File Convertions to TeX",
+    "placeholder": "Select automatic convertions to tex ...",
+    "and_search": true,
+    "values": [
+      {
+        "name": "all"
+      },
+      {
+        "name": "c/c++"
+      },
+      {
+        "name": "java"
+      },
+      {
+        "name": "matlab"
+      },
+      {
+        "name": "ml"
+      },
+      {
+        "name": "perl"
+      },
+      {
+        "name": "python"
+      },
+      {
+        "name": "ruby"
+      },
+      {
+        "name": "sql"
+      },
+      {
+        "name": "Beamer"
+      }
+    ]
+  },
+  {
+    "name": "Automatic File Convertions to PSTeX/PdfTeX",
+    "tag": "Automatic File Convertions to PSTeX/PdfTeX",
+    "placeholder": "Select automatic convertions to pstex/pdftex ...",
+    "and_search": true,
+    "values": [
+      {
+        "name": "fig"
+      },
+      {
+        "name": "plot"
+      },
+      {
+        "name": "dia"
+      },
+      {
+        "name": "svg"
+      },
+      {
+        "name": "Beamer"
+      }
+    ]
+  },
+  {
+    "name": "Export to Elsevier",
+    "tag": "Export to Elsevier",
+    "placeholder": "Select support for elsevier ...",
+    "and_search": false,
+    "values": [
+      {
+        "name": "Yes",
+        "class": "label-success"
+      },
+      {
+        "name": "No",
+        "class": "label-danger"
+      }
+    ]
+  },
+  {
+    "name": "Editor Plugins",
+    "tag": "Editor Plugins",
+    "placeholder": "Select editor plugins ...",
+    "and_search": true,
+    "values": [
+      {
+        "name": "Gedit3"
+      },
+      {
+        "name": "Gtk3"
+      },
+      {
+        "name": "Sublime Text 3"
+      },
+      {
+        "name": "Gedit2",
+        "description": "deprecated"
+      },
+      {
+        "name": "Gtk2",
+        "description": "deprecated"
+      },
+      {
+        "name": "Sublime Text 2",
+        "description": "deprecated"
+      }
+    ]
+  }
+]

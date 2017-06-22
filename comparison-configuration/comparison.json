@@ -1,0 +1,25 @@
+{
+  "title": "Ultimate-Comparison",
+  "subtitle": "Ultimate tex maker comparison framework",
+  "selecttitle": "Criteria",
+  "tabletitle": "Comparison of tex makers",
+  "details": {
+    "header-label": "",
+    "body-main-title": "Description",
+    "body": "Comparison of different tex makers, based on <http://www.arakhne.org/autolatex/>.",
+    "body-attachment-tags": [
+      "Implementation",
+      "Date",
+      "Supported Tools",
+      "Detect Changes for TeX",
+      "Detect Changes for BibTeX",
+      "Detect Changes for Images",
+      "Automatic File Convertions to PS/PDF/PNG",
+      "Automatic File Convertions to TeX",
+      "Automatic File Convertions to PSTeX/PdfTeX",
+      "Export to Elsevier",
+      "Editor Plugins"
+    ]
+  },
+  "repository": "https://github.com/ultimate-comparisons/ultimate-tex-maker-comparison.git"
+}
