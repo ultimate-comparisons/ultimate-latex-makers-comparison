@@ -1,11 +1,13 @@
-# Ultimate Tex Makers Comparison
+# Ultimate LaTeX Makers Comparison
 
 [![Build 
 Status](https://travis-ci.org/ultimate-comparisons/ultimate-deployment-tool-comparison.svg?branch=master)](https://travis-ci.org/ultimate-comparisons/ultimate-deployment-tool-comparison)
 
-This is an ultimate comparison of tex makers.
+This is an ultimate comparison of LaTeX makers.
+LaTeX makers are tools to automate the production of PDFs (oder DVIs) out of latex (`.tex`) files.
 
 ## Test it
+
 1. Install [node.js](https://nodejs.org/en/)
 2. Intall [Java JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 3. Install [pandoc](http://pandoc.org/installing.html) (Version 1.17.2) [pandoc-citeproc](https://hackage.haskell.org/package/pandoc-citeproc)
@@ -24,7 +26,8 @@ This is an ultimate comparison of tex makers.
 8. [Setup automatic deployment of `www` directory using Travis CI](https://github.com/ultimate-comparisons/ultimate-comparison-BASE/wiki/Build-and-deploy-project-with-Travis-CI)
 
 
-## Ultimate-tex-makers-Comparison Element Specification
+## Ultimate-latex-makers-Comparison Element Specification
+
 The code below shows a sample element.
 
     # AutoLaTeX - http://www.arakhne.org/autolatex/
