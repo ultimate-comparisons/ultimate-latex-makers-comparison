@@ -1,34 +1,98 @@
 # Template - http://www.example.com
 Default short description (with bibkey: [@esper-reference])
 
-## Performance
-- slow
-- fast
+## Implementation
+- Sh
+- Perl
+- Python
+- Makefile
+- csh
+- Ruby
+- Bash
+- C
+- Java
 
-## License
-- MIT
-- Apache 2.0
-- MPL 2.0
+## Date
+- "Year"
 
-## Showcase 2.0
-- red 1
-- red 2
-- green
-    - [@eckertThesisCEP]
-- yellow
-    - yellow property
-- dark blue
-    - [@eckertThesisCEP]
-    - more properties
-- grey
-- light blue
 
-## Description
-Default long description in __markdown__.
-- Bibkey example [@Adi:2004:ASM:988145.988150]
-- [Link example](http://example.com).
+## Supported Tools
+- latex
+- pdflatex
+- xelatex
+- luatex
+- bibtex
+- biber
+- makeindex
+- makeglossaries
+- dvips
+- ps2pdf
+- dvipdf
+- dvi
+- texi2dvi
+- etex
+- aleph
+- omega
+- vtex
+- metapost
+- sagetex
+- tikzext
+- gnuplot
+- synctex
 
-## Rating
-- [5] Template is perfect
-- [1] I don't understand nothing
-- [3] It works
+## Detect change for TeX
+- all
+- latex
+- bibtex
+- makeindex
+
+## Detect changes for BibTeX
+- all
+
+## Detect changes for images
+- all
+- maybe
+
+## Automatic File Conversions to PS/PDF/PNG
+- asta
+- dia
+- dot
+- fig
+- ggb
+- gxl
+- odg
+- plot
+- svg
+- vsd
+- xmi
+
+## Automatic File Conversions to TeX
+- all
+- c/c++
+- java
+- matlab
+- ml
+- perl
+- python
+- ruby
+- sql
+- Beamer
+
+## Automatic File Conversions to PSTeX/PdfTeX
+- fig
+- plot
+- dia
+- svg
+- Beamer
+
+## Export to Elsevier
+- Yes
+- No
+
+## Editor Plugins
+- Gedit3
+- Gtk3
+- Sublime Text 3
+- Gedit 2
+- Gtk 2
+- Sublime Text 2
