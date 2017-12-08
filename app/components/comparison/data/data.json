@@ -562,6 +562,205 @@
     }
   },
   {
+    "tag": "arara - https://github.com/cereda/arara",
+    "descr": "arara is a TeX automation tool based on rules and directives.",
+    "Implementation": {
+      "plain": "- Java\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Java",
+              "plain": "Java\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2012\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2012",
+              "plain": "2012\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- latex\n- pdflatex\n- xelatex\n- luatex\n- bibtex\n- biber\n- makeindex\n- makeglossaries\n- dvips\n- ps2pdf\n- frontespizio\n- latexmk\n- synctex\n- metapost\n- metafont\n- gnuplot\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "latex",
+              "plain": "latex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "xelatex",
+              "plain": "xelatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "luatex",
+              "plain": "luatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "biber",
+              "plain": "biber\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeglossaries",
+              "plain": "makeglossaries\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ps2pdf",
+              "plain": "ps2pdf\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "frontespizio",
+              "plain": "frontespizio\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "latexmk",
+              "plain": "latexmk\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "synctex",
+              "plain": "synctex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "metapost",
+              "plain": "metapost\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "metafont",
+              "plain": "metafont\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "gnuplot",
+              "plain": "gnuplot\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect change for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect changes for images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Conversions to TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
     "tag": "go-make - https://www.ctan.org/pkg/go-make",
     "descr": "Go automates the processing of a LaTeX document, according to a file .gorc in the same directory as the document.",
     "Implementation": {
@@ -1203,6 +1402,160 @@
       "childs": {
         "0": [
           ""
+        ]
+      }
+    }
+  },
+  {
+    "tag": "ltx2any - https://github.com/reitzig/ltx2any",
+    "descr": "LaTeX build wrapper.",
+    "Implementation": {
+      "plain": "- Ruby\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Ruby",
+              "plain": "Ruby\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Date": {
+      "plain": "- 2012\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "2012",
+              "plain": "2012\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Supported Tools": {
+      "plain": "- pdflatex\n- xelatex\n- luatex\n- bibtex\n- biber\n- makeindex\n- metapost\n- sagetex\n- tikzext\n- gnuplot\n- synctex\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "xelatex",
+              "plain": "xelatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "luatex",
+              "plain": "luatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "biber",
+              "plain": "biber\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "metapost",
+              "plain": "metapost\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "sagetex",
+              "plain": "sagetex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "tikzext",
+              "plain": "tikzext\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "gnuplot",
+              "plain": "gnuplot\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "synctex",
+              "plain": "synctex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect change for TeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect changes for images": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
         ]
       }
     }
@@ -1884,20 +2237,62 @@
   {
     "tag": "Template - http://www.example.com",
     "descr": "Default short description (with bibkey: [@esper-reference])",
-    "Performance": {
-      "plain": "- slow\n- fast\n",
+    "Implementation": {
+      "plain": "- Sh\n- Perl\n- Python\n- Makefile\n- csh\n- Ruby\n- Bash\n- C\n- Java\n",
       "childs": {
         "0": [
           [
             {
-              "content": "slow",
-              "plain": "slow\n",
+              "content": "Sh",
+              "plain": "Sh\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": "fast",
-              "plain": "fast\n",
+              "content": "Perl",
+              "plain": "Perl\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Python",
+              "plain": "Python\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Makefile",
+              "plain": "Makefile\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "csh",
+              "plain": "csh\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Ruby",
+              "plain": "Ruby\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Bash",
+              "plain": "Bash\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "C",
+              "plain": "C\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Java",
+              "plain": "Java\n",
               "plainChilds": "",
               "childs": []
             }
@@ -1905,26 +2300,14 @@
         ]
       }
     },
-    "License": {
-      "plain": "- MIT\n- Apache 2.0\n- MPL 2.0\n",
+    "Date": {
+      "plain": "- Year\n",
       "childs": {
         "0": [
           [
             {
-              "content": "MIT",
-              "plain": "MIT\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "Apache 2.0",
-              "plain": "Apache 2.0\n",
-              "plainChilds": "",
-              "childs": []
-            },
-            {
-              "content": "MPL 2.0",
-              "plain": "MPL 2.0\n",
+              "content": "Year",
+              "plain": "Year\n",
               "plainChilds": "",
               "childs": []
             }
@@ -1932,77 +2315,140 @@
         ]
       }
     },
-    "Showcase 2.0": {
-      "plain": "- red 1\n- red 2\n- green\n    - [@eckertThesisCEP]\n- yellow\n    - yellow property\n- dark blue\n    - [@eckertThesisCEP]\n    - more properties\n- grey\n- light blue\n",
+    "Supported Tools": {
+      "plain": "- latex\n- pdflatex\n- xelatex\n- luatex\n- bibtex\n- biber\n- makeindex\n- makeglossaries\n- dvips\n- ps2pdf\n- dvipdf\n- dvi\n- texi2dvi\n- etex\n- aleph\n- omega\n- vtex\n- metapost\n- sagetex\n- tikzext\n- gnuplot\n- synctex\n",
       "childs": {
         "0": [
           [
             {
-              "content": "red 1",
-              "plain": "red 1\n",
+              "content": "latex",
+              "plain": "latex\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": "red 2",
-              "plain": "red 2\n",
+              "content": "pdflatex",
+              "plain": "pdflatex\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": "green",
-              "plain": "green\n",
-              "plainChilds": "    - [@eckertThesisCEP]\n",
-              "childs": [
-                {
-                  "content": ",[@eckertThesisCEP]",
-                  "plain": "[@eckertThesisCEP]\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "yellow",
-              "plain": "yellow\n",
-              "plainChilds": "    - yellow property\n",
-              "childs": [
-                {
-                  "content": "yellow property",
-                  "plain": "yellow property\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "dark blue",
-              "plain": "dark blue\n",
-              "plainChilds": "    - [@eckertThesisCEP]\n    - more properties\n",
-              "childs": [
-                {
-                  "content": ",[@eckertThesisCEP]",
-                  "plain": "[@eckertThesisCEP]\n    ",
-                  "plainChilds": "",
-                  "childs": []
-                },
-                {
-                  "content": "more properties",
-                  "plain": "more properties\n",
-                  "plainChilds": "",
-                  "childs": []
-                }
-              ]
-            },
-            {
-              "content": "grey",
-              "plain": "grey\n",
+              "content": "xelatex",
+              "plain": "xelatex\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": "light blue",
-              "plain": "light blue\n",
+              "content": "luatex",
+              "plain": "luatex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "biber",
+              "plain": "biber\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeglossaries",
+              "plain": "makeglossaries\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvips",
+              "plain": "dvips\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ps2pdf",
+              "plain": "ps2pdf\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvipdf",
+              "plain": "dvipdf\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dvi",
+              "plain": "dvi\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "texi2dvi",
+              "plain": "texi2dvi\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "etex",
+              "plain": "etex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "aleph",
+              "plain": "aleph\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "omega",
+              "plain": "omega\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "vtex",
+              "plain": "vtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "metapost",
+              "plain": "metapost\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "sagetex",
+              "plain": "sagetex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "tikzext",
+              "plain": "tikzext\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "gnuplot",
+              "plain": "gnuplot\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "synctex",
+              "plain": "synctex\n",
               "plainChilds": "",
               "childs": []
             }
@@ -2010,34 +2456,317 @@
         ]
       }
     },
-    "Description": {
-      "plain": "Default long description in __markdown__.\n- Bibkey example [@Adi:2004:ASM:988145.988150]\n- [Link example](http://example.com).",
-      "childs": {
-        "0": [
-          "Default long description in __markdown__. - Bibkey example [@Adi:2004:ASM:988145.988150] - [Link example]."
-        ]
-      }
-    },
-    "Rating": {
-      "plain": "- [5] Template is perfect\n- [1] I don't understand nothing\n- [3] It works\n",
+    "Detect change for TeX": {
+      "plain": "- all\n- latex\n- bibtex\n- makeindex\n",
       "childs": {
         "0": [
           [
             {
-              "content": ",[5] Template is perfect",
-              "plain": "[5] Template is perfect\n",
+              "content": "all",
+              "plain": "all\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": ",[1] I don't understand nothing",
-              "plain": "[1] I don't understand nothing\n",
+              "content": "latex",
+              "plain": "latex\n",
               "plainChilds": "",
               "childs": []
             },
             {
-              "content": ",[3] It works",
-              "plain": "[3] It works\n",
+              "content": "bibtex",
+              "plain": "bibtex\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "makeindex",
+              "plain": "makeindex\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect changes for BibTeX": {
+      "plain": "- all\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Detect changes for images": {
+      "plain": "- all\n- maybe\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "maybe",
+              "plain": "maybe\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Conversions to PS/PDF/PNG": {
+      "plain": "- asta\n- dia\n- dot\n- fig\n- ggb\n- gxl\n- odg\n- plot\n- svg\n- vsd\n- xmi\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "asta",
+              "plain": "asta\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dia",
+              "plain": "dia\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dot",
+              "plain": "dot\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "fig",
+              "plain": "fig\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ggb",
+              "plain": "ggb\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "gxl",
+              "plain": "gxl\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "odg",
+              "plain": "odg\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "plot",
+              "plain": "plot\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "svg",
+              "plain": "svg\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "vsd",
+              "plain": "vsd\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "xmi",
+              "plain": "xmi\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Conversions to TeX": {
+      "plain": "- all\n- c/c++\n- java\n- matlab\n- ml\n- perl\n- python\n- ruby\n- sql\n- Beamer\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "all",
+              "plain": "all\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "c/c++",
+              "plain": "c/c++\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "java",
+              "plain": "java\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "matlab",
+              "plain": "matlab\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ml",
+              "plain": "ml\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "perl",
+              "plain": "perl\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "python",
+              "plain": "python\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "ruby",
+              "plain": "ruby\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "sql",
+              "plain": "sql\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Beamer",
+              "plain": "Beamer\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Automatic File Conversions to PSTeX/PdfTeX": {
+      "plain": "- fig\n- plot\n- dia\n- svg\n- Beamer\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "fig",
+              "plain": "fig\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "plot",
+              "plain": "plot\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "dia",
+              "plain": "dia\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "svg",
+              "plain": "svg\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Beamer",
+              "plain": "Beamer\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Export to Elsevier": {
+      "plain": "- Yes\n- No\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Yes",
+              "plain": "Yes\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "No",
+              "plain": "No\n",
+              "plainChilds": "",
+              "childs": []
+            }
+          ]
+        ]
+      }
+    },
+    "Editor Plugins": {
+      "plain": "- Gedit3\n- Gtk3\n- Sublime Text 3\n- Gedit 2\n- Gtk 2\n- Sublime Text 2\n",
+      "childs": {
+        "0": [
+          [
+            {
+              "content": "Gedit3",
+              "plain": "Gedit3\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Gtk3",
+              "plain": "Gtk3\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Sublime Text 3",
+              "plain": "Sublime Text 3\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Gedit 2",
+              "plain": "Gedit 2\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Gtk 2",
+              "plain": "Gtk 2\n",
+              "plainChilds": "",
+              "childs": []
+            },
+            {
+              "content": "Sublime Text 2",
+              "plain": "Sublime Text 2\n",
               "plainChilds": "",
               "childs": []
             }
