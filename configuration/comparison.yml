@@ -1,0 +1,254 @@
+title: Ultimate-Comparison
+subtitle: Ultimate tex maker comparison framework
+selectTitle: Criteria
+tableTitle: Comparison of tex makers
+repository: 'https://github.com/ultimate-comparisons/ultimate-latex-makers-comparison.git'
+details:
+  header:
+    nameRef: id
+    urlRef: inline
+  body:
+    title: Comparison of different tex makers, based on <http://www.arakhne.org/autolatex/>.
+    bodyRef: description
+citation:
+  csl: apa.csl
+  bib: literature.bib
+criteria:
+  - id:
+      name: Name
+      search: false
+      table: true
+      detail: false
+  - description:
+      name: Short description
+      search: false
+      detail: true
+      type: markdown
+  - Implementation:
+      table: false
+      search: true
+      placeholder: Select implementation ...
+      andSearch: false
+      type: label
+      values:
+        Sh:
+          backgroundColor: '#EA3711'
+        Perl:
+          backgroundColor: '#11EAD3'
+        Python:
+          backgroundColor: '#4F11EA'
+        Makefile:
+          backgroundColor: '#EA6311'
+        csh:
+          backgroundColor: '#C6EA11'
+        Ruby:
+          backgroundColor: '#113FEA'
+        Bash:
+          backgroundColor: '#77EA11'
+        C:
+          backgroundColor: '#9811EA'
+  - Date:
+      table: false
+      search: true
+      placeholder: Select year ...
+      andSearch: false
+      rangeSearch: true
+      values:
+        2014:
+          backgroundColor: '#EA3711'
+        1993:
+          backgroundColor: '#11EAD3'
+        2003:
+          backgroundColor: '#4F11EA'
+        2012:
+          backgroundColor: '#EA6311'
+        1997:
+          backgroundColor: '#C6EA11'
+        2010:
+          backgroundColor: '#77EA11'
+        2001:
+          backgroundColor: '#9811EA'
+        2013:
+          backgroundColor: '#2BEA11'
+  - Supported Tools:
+      table: true
+      search: true
+      placeholder: Select supported tools ...
+      andSearch: true
+      type: label
+      values:
+        latex:
+          backgroundColor: '#EA3711'
+        pdflatex:
+          backgroundColor: '#11EAD3'
+        xelatex:
+          backgroundColor: '#4F11EA'
+        lualatex:
+          backgroundColor: '#EA6311'
+        bibtex:
+          backgroundColor: '#C6EA11'
+        biber:
+          backgroundColor: '#113FEA'
+        makeindex:
+          backgroundColor: '#77EA11'
+        makeglossaries:
+          backgroundColor: '#9811EA'
+        dvips:
+          backgroundColor: '#2BEA11'
+        ps2pdf:
+          backgroundColor: '#EA9E11'
+        dvipdf:
+          backgroundColor: '#11BCEA'
+        dvi:
+          backgroundColor: '#11EA7A'
+        texi2dvi:
+          backgroundColor: '#1E11EA'
+        etex:
+          backgroundColor: '#EAD311'
+        aleph:
+          backgroundColor: '#8411EA'
+        omega:
+          backgroundColor: '#BC11EA'
+        vtex:
+          backgroundColor: '#1187EA'
+  - Detect Changes for TeX:
+      table: true
+      search: true
+      placeholder: Select detected changes for tex ...
+      andSearch: false
+      type: label
+      values:
+        all:
+          backgroundColor: '#EA3711'
+        latex:
+          backgroundColor: '#11EAD3'
+        bibtex:
+          backgroundColor: '#4F11EA'
+        makeindex:
+          backgroundColor: '#EA6311'
+  - Detect Changes for BibTeX:
+      table: true
+      search: true
+      placeholder: Select detected changes for bibtex ...
+      andSearch: false
+      type: label
+      values:
+        all:
+          backgroundColor: '#EA3711'
+  - Detect Changes for Images:
+      table: true
+      search: true
+      placeholder: Select detected changes for images ...
+      andSearch: false
+      type: label
+      values:
+        all:
+          backgroundColor: '#EA3711'
+        maybe:
+          backgroundColor: '#11EAD3'
+  - Automatic File Conversions to PS/PDF/PNG:
+      table: true
+      search: true
+      placeholder: Select automatic conversions to ps/pdf/png ...
+      andSearch: true
+      type: label
+      values:
+        asta:
+          backgroundColor: '#EA3711'
+        dia:
+          backgroundColor: '#11EAD3'
+        dot:
+          backgroundColor: '#4F11EA'
+        fig:
+          backgroundColor: '#EA6311'
+        ggb:
+          backgroundColor: '#C6EA11'
+        gxl:
+          backgroundColor: '#113FEA'
+        odg:
+          backgroundColor: '#77EA11'
+        plot:
+          backgroundColor: '#9811EA'
+        svg:
+          backgroundColor: '#2BEA11'
+        vsd:
+          backgroundColor: '#EA9E11'
+        xmi:
+          backgroundColor: '#11BCEA'
+  - Automatic File Conversions to TeX:
+      table: true
+      search: true
+      placeholder: Select automatic conversions to tex ...
+      andSearch: true
+      type: label
+      values:
+        all:
+          backgroundColor: '#EA3711'
+        c/c++:
+          backgroundColor: '#11EAD3'
+        java:
+          backgroundColor: '#4F11EA'
+        matlab:
+          backgroundColor: '#EA6311'
+        ml:
+          backgroundColor: '#C6EA11'
+        perl:
+          backgroundColor: '#113FEA'
+        python:
+          backgroundColor: '#77EA11'
+        ruby:
+          backgroundColor: '#9811EA'
+        sql:
+          backgroundColor: '#2BEA11'
+        Beamer:
+          backgroundColor: '#EA9E11'
+  - Automatic File Convertions to PSTeX/PdfTeX:
+      table: true
+      search: true
+      placeholder: Select automatic conversions to pstex/pdftex ...
+      andSearch: true
+      type: label
+      values:
+        fig:
+          backgroundColor: '#EA3711'
+        plot:
+          backgroundColor: '#11EAD3'
+        dia:
+          backgroundColor: '#4F11EA'
+        svg:
+          backgroundColor: '#EA6311'
+        Beamer:
+          backgroundColor: '#C6EA11'
+  - Export to Elsevier:
+      table: true
+      search: true
+      placeholder: Select support for elsevier ...
+      andSearch: false
+      type: label
+      values:
+        Yes:
+          class: label-success
+        No:
+          class: label-danger
+  - Editor Plugins:
+      table: true
+      search: true
+      placeholder: Select editor plugins ...
+      andSearch: false
+      type: label
+      values:
+        Gedit3:
+          backgroundColor: '#EA3711'
+        Gtk3:
+          backgroundColor: '#11EAD3'
+        Sublime Text 3:
+          backgroundColor: '#4F11EA'
+        Gedit2:
+          description: deprecated
+          backgroundColor: '#EA6311'
+        Gtk2:
+          description: deprecated
+          backgroundColor: '#C6EA11'
+        Sublime Text 2:
+          description: deprecated
+          backgroundColor: '#113FEA'
