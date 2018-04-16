@@ -1,6 +1,6 @@
 # Ultimate LaTeX Makers Comparison
 
-[![Build 
+[![Build
 Status](https://travis-ci.org/ultimate-comparisons/ultimate-deployment-tool-comparison.svg?branch=master)](https://travis-ci.org/ultimate-comparisons/ultimate-deployment-tool-comparison)
 
 This is an ultimate comparison of LaTeX makers.
@@ -25,7 +25,7 @@ LaTeX makers are tools to automate the production of PDFs (oder DVIs) out of lat
 The code below shows a sample element.
 
     # AutoLaTeX - http://www.arakhne.org/autolatex/
-    AutoLaTeX is a tool for managing small to large sized LaTeX documents. The user can easily perform all required steps to do such tasks as: preview the document, or produce a PDF 
+    AutoLaTeX is a tool for managing small to large sized LaTeX documents. The user can easily perform all required steps to do such tasks as: preview the document, or produce a PDF
     file.
 
     ## Implementation
@@ -96,9 +96,9 @@ The code below shows a sample element.
     - Gedit2
     - Sublime Text 2
     - Gtk2
+
 ## License
 
-The code is licensed under [MIT], the content (located at `data`) under [CC-BY-SA-4.0].
+The content is licensed under [CC0-1.0].
 
-  [MIT]: https://opensource.org/licenses/MIT
-  [CC-BY-SA-4.0]: http://creativecommons.org/licenses/by-sa/4.0/
+  [CC0-1.0]: https://creativecommons.org/publicdomain/zero/1.0/
